@@ -1,0 +1,6 @@
+build/
+
+tests/*
+!tests/*.sch
+
+!.gitignore

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="AdcDacModule">
+	<description>
+		<russian>Модуль для АЦП/ЦАП</russian>
+		<english>ADC/DAC module</english>
+	</description>
+	<modellist>
+		<model name="ADC1A" icon="ADC1A" ext="1" ent="0" par="1" vpr="1" str="1" stp="0" wrk="1" wrp="0" ign="3" adr="2">
+			<description>
+				<russian></russian>
+				<english></english>
+			</description>
+		</model>
+		<model name="ADC2A" icon="ADC2A" ext="1" ent="0" par="1" vpr="1" str="1" stp="0" wrk="1" wrp="0" ign="3" adr="2">
+			<description>
+				<russian></russian>
+				<english></english>
+			</description>
+		</model>
+		<model name="DAC1A" icon="DAC1A" ext="1" ent="0" par="1" vpr="1" str="1" stp="0" wrk="1" wrp="0" ign="3" adr="2">
+			<description>
+				<russian></russian>
+				<english></english>
+			</description>
+		</model>
+		<model name="DAC2A" icon="DAC2A" ext="1" ent="0" par="1" vpr="1" str="1" stp="0" wrk="1" wrp="0" ign="3" adr="2">
+			<description>
+				<russian></russian>
+				<english></english>
+			</description>
+		</model>
+	</modellist>
+	<ovplist>
+	</ovplist>
+	<imagelist>
+	</imagelist>
+	<nodelist>
+	</nodelist>
+	<parameterlist>
+	</parameterlist>
+	<objectlist>
+		<object name="ADC" icon="ADC">
+			<description>
+				<russian></russian>
+				<english></english>
+			</description>
+		</object>
+		<object name="DAC" icon="DAC">
+			<description>
+				<russian></russian>
+				<english></english>
+			</description>
+		</object>
+		<object name="LCardParameters" icon="LCardParameters">
+			<description>
+				<russian></russian>
+				<english></english>
+			</description>
+		</object>
+	</objectlist>
+</module>

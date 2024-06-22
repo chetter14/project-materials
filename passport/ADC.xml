@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object name="ADC" module="AdcDacModule" alias="" priority="10">
+	<description>
+		<russian></russian>
+		<english></english>
+	</description>
+	<nodelist>
+		<node name="DetectedSignal" type="base.DOF1">
+			<description>
+				<russian>Полученный сигнал с АЦП</russian>
+				<english>Detected signal from ADC</english>
+			</description>
+		</node>
+	</nodelist>
+	<parameterlist>
+		<parameter name="AdcSensorType" type="string" default="">
+			<description>
+				<russian>Датчик сигнала ['Analog', 'Digital']</russian>
+				<english>Sensor of analog or digital signal</english>
+			</description>
+		</parameter>
+		<parameter name="BooleanHighValue" type="base.real" default="0.0">
+			<description>
+				<russian>Значение напряжения, которому соответствует логическая единица</russian>
+				<english>Voltage value of boolean high</english>
+			</description>
+		</parameter>
+		<parameter name="Channel" type="base.real" default="">
+			<description>
+				<russian>Канал АЦП</russian>
+				<english>ADC channel</english>
+			</description>
+		</parameter>
+		<parameter name="ControllerParameters" type="base.real" default="">
+			<description>
+				<russian>Параметры используемого контроллера</russian>
+				<english>Parameters of specific controller</english>
+			</description>
+		</parameter>
+	</parameterlist>
+	<image2d icon = "AdcDacModule.ADC" symbol = "    Line -20 -10 40 0 #000080 2 1:
+    Line 20 -10 0 20 #000080 2 1:
+    Line -20 10 40 0 #000080 2 1:
+    Line -20 -10 0 20 #000080 2 1:
+    Line 20 0 10 0 #000080 2 1:
+    .PortSym 30 0 1 180:
+"/>
+	<fieldlist>
+	</fieldlist>
+</object>

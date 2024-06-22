@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="RT" module="AdcDacModule" image="" alias="RT" priority="5" ext="1" ent="1" par="1" vpr="0" str="" stp="0" wrk="0" wrp="0" ign="0" adr="1">
+	<description>
+		<russian></russian>
+		<english></english>
+	</description>
+	<nodelist>
+		<node name="TimePassed" type="base.DOF1">
+			<description>
+				<russian>Прошедшее время с начала моделирования</russian>
+				<english>The time passed from simulation start</english>
+			</description>
+		</node>
+	</nodelist>
+	<parameterlist>
+		<parameter name="Stub" type="base.real" default="">
+			<description>
+				<russian>Заглушка</russian>
+				<english>Stub parameter</english>
+			</description>
+		</parameter>
+	</parameterlist>
+	<image2d icon = "AdcDacModule.RT" symbol = "    .PortSym -30 0 1 0:
+    Line -20 -10 40 0 #000080 2 1:
+    Line 20 -10 0 20 #000080 2 1:
+    Line -20 10 40 0 #000080 2 1:
+    Line -20 -10 0 20 #000080 2 1:
+    Line -30 0 10 0 #000080 2 1:
+"/>
+	<worklist>
+	</worklist>
+	<statelist>
+	</statelist>
+</model>

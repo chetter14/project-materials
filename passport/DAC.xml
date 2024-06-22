@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object name="DAC" module="AdcDacModule" alias="" priority="10">
+	<description>
+		<russian></russian>
+		<english></english>
+	</description>
+	<nodelist>
+		<node name="GeneratedSignal" type="base.DOF1">
+			<description>
+				<russian>Сгенерированный сигнал на АЦП</russian>
+				<english>Generated signal to DAC</english>
+			</description>
+		</node>
+	</nodelist>
+	<parameterlist>
+		<parameter name="DacGeneratorType" type="string" default="">
+			<description>
+				<russian>Генератор сигнала ['Analog', 'Digital']</russian>
+				<english>Generator of analog or digital signal</english>
+			</description>
+		</parameter>
+		<parameter name="BooleanHighValue" type="base.real" default="0.0">
+			<description>
+				<russian>Значение напряжения, которому соответствует логическая единица</russian>
+				<english>Voltage value of boolean high</english>
+			</description>
+		</parameter>
+		<parameter name="Channel" type="base.real" default="">
+			<description>
+				<russian>Канал ЦАП</russian>
+				<english>DAC channel</english>
+			</description>
+		</parameter>
+		<parameter name="ControllerParameters" type="base.real" default="">
+			<description>
+				<russian>Параметры используемого контроллера</russian>
+				<english>Parameters of specific controller</english>
+			</description>
+		</parameter>
+	</parameterlist>
+	<image2d icon = "AdcDacModule.DAC" symbol = "    .PortSym -30 0 1 0:
+    Line -20 -10 40 0 #000080 2 1:
+    Line 20 -10 0 20 #000080 2 1:
+    Line -20 10 40 0 #000080 2 1:
+    Line -20 -10 0 20 #000080 2 1:
+    Line -30 0 10 0 #000080 2 1:
+"/>
+	<fieldlist>
+	</fieldlist>
+</object>

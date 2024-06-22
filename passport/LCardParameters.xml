@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object name="LCardParameters" module="AdcDacModule" alias="" priority="5">
+	<description>
+		<russian></russian>
+		<english></english>
+	</description>
+	<nodelist>
+	</nodelist>
+	<parameterlist>
+		<parameter name="ModuleType" type="string" default="">
+			<description>
+				<russian>Тип АЦП/ЦАП модуля ['E154', 'E140M', 'E502']</russian>
+				<english>Type of ADC/DAC module</english>
+			</description>
+		</parameter>
+		<parameter name="InputRange" type="string" default="">
+			<description>
+				<russian>Диапазон измерения, В ['5', '1_6', '0_5', '0_16']</russian>
+				<english>Input range</english>
+			</description>
+		</parameter>
+		<parameter name="TechnicalParameters" type="base.real" default="">
+			<description>
+				<russian>Список тех параметров АЦП/ЦАП модуля</russian>
+				<english>General technical parameters for ADC/DAC module</english>
+			</description>
+		</parameter>
+	</parameterlist>
+	<image2d icon = "AdcDacModule.LCardParameters" symbol = "    Line -20 -10 40 0 #000080 2 1:
+    Line 20 -10 0 20 #000080 2 1:
+    Line -20 10 40 0 #000080 2 1:
+    Line -20 -10 0 20 #000080 2 1:
+"/>
+	<fieldlist>
+	</fieldlist>
+</object>

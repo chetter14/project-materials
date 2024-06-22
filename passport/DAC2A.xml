@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="DAC2A" module="AdcDacModule" image="" alias="DAC2A" priority="5" ext="1" ent="1" par="1" vpr="0" str="" stp="0" wrk="0" wrp="0" ign="0" adr="1">
+	<description>
+		<russian></russian>
+		<english></english>
+	</description>
+	<nodelist>
+		<node name="GeneratedBooleanSignal" type="base.DOF1">
+			<description>
+				<russian>Сгенерированный логический сигнал на e-154</russian>
+				<english>Generated boolean signal to e-154</english>
+			</description>
+		</node>
+	</nodelist>
+	<parameterlist>
+	</parameterlist>
+	<image2d icon = "AdcDacModule.DAC2A" symbol = "    .PortSym -30 0 1 0:
+    Line -20 -10 40 0 #000080 2 1:
+    Line 20 -10 0 20 #000080 2 1:
+    Line -20 10 40 0 #000080 2 1:
+    Line -20 -10 0 20 #000080 2 1:
+    Line -30 0 10 0 #000080 2 1:
+"/>
+	<worklist>
+	</worklist>
+	<statelist>
+	</statelist>
+</model>
